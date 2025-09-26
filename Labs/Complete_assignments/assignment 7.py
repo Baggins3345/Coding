@@ -1,10 +1,10 @@
-def functiona ():
+def function_a ():
     print("My first name is Benjamin.")
     print("My last name is Strong.")
     print("My faculty is IT.")
     print("My year is Second.")
 
-def functionb ():
+def function_b ():
     print("This is my first initial")
     print("++++++++++++++++++++++++++++++++++++++++")
     print("+ BBBBBBBBBBBBBBBBB                    +")
@@ -33,6 +33,6 @@ print("A. Lab Assignment 1, Program 1\nB. Lab Assignment 2, Program 2")
 user_input = input("Enter your choice here: ")
 
 if user_input == "A":
-    functiona()
+    function_a()
 elif user_input == "B":
-    functionb()
+    function_b()
