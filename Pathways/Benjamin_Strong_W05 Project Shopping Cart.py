@@ -9,9 +9,8 @@
 print("Welcome to the Shopping Cart Program!")
 shopping_list = []
 prices = []
-quit_ = False
 
-while not quit_:
+while True:
     user_choice = (input("""Please select one of the following:
 1. Add a new item
 2. Shopping cart
@@ -23,7 +22,6 @@ Please enter an action: """))
         print("-"*20)
         print("Thank you. Goodbye.")
         print("-"*20)
-        quit_ = True
         break
     elif user_choice == "1":
         new_item = ""
