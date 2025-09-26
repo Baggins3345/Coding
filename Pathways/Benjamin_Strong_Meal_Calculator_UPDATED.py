@@ -5,6 +5,7 @@
 ####STUFF I ADDED: I added an if/else statment asking the user if they would like to round up for charity. If y then they would get the amount rounded up using 
 ####the function math.ceil, then get the payment/change. If no we continue as normal and get the payment/change. 
 
+
 import math
 
 #Ask for adult# and amount
